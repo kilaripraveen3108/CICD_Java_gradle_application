@@ -35,8 +35,9 @@ pipeline{
                      docker push 34.171.30.155:8085/springapp/${VERSION}
                      docker rmi 34.171.30.155:8085/springapp/${VERSION}
                      '''
-               } 
+               }
             }
-        }  
+        }
     }
+  }
 }
